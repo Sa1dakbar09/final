@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+:root {
+    --font: "Roboto", sans-serif;
+}
+
 .swiper_content {
     overflow: hidden;
 }
@@ -65,3 +77,238 @@
 }
 
 /* /////////////////////////////////////////// */
+
+.carucel_1 {
+    padding: 0 20px;
+    max-width: 1440px;
+    margin: 50px auto;
+}
+
+.brend_car {
+    margin-left: 2%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* padding: 25px 50px; */
+    display: grid;
+    place-content: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    height: 65px;
+}
+
+.brend_car img {
+    width: 65px;
+    object-fit: cover;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* //////////////////////////////////////////////////////////////////////////// */
+
+.carucel_2 {
+    max-width: 1440px;
+    margin: 10px auto;
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+.carucel_2 h1 {
+    color: #333;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0 0 10px 0;
+}
+
+.brend_car2 {
+    margin-left: 2%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* padding: 25px 50px; */
+    display: grid;
+    place-content: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    height: 65px;
+}
+
+.brend_car2 img {
+    width: 65px;
+    object-fit: cover;
+}
+
+/* //////////////////////////////////////////////////////////////////////// */
+
+.mahsulotlar {
+    max-width: 1440px;
+    margin: 20px auto;
+    padding: 0 30px;
+}
+
+.yangilar {
+    width: 100%;
+    min-height: 300px;
+}
+
+.yangilar h1 {
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+.cards_line {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.cards {
+    width: 250px;
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.top_card {
+    position: relative;
+    width: 100%;
+    height: 220px;
+}
+
+.top_card img {
+    position: absolute;
+    width: 95%;
+    z-index: -1;
+    top: 5px;
+    left: 5px;
+}
+
+.heart_card {
+    background: hsla(0, 0%, 100%, .8);
+    border: 1px solid hsla(0, 0%, 93%, .5);
+    border-radius: 50px;
+    font-size: 19px;
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    font-weight: 100;
+}
+
+.scale_card {
+    font-weight: 100;
+    background: hsla(0, 0%, 100%, .8);
+    border: 1px solid hsla(0, 0%, 93%, .5);
+    border-radius: 50px;
+    font-size: 19px;
+    position: absolute;
+    top: 35px;
+    right: -3px;
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+}
+
+.baby06 {
+    font-weight: 100;
+    background: hsla(0, 0%, 100%, .8);
+    border: 1px solid hsla(0, 0%, 93%, .5);
+    border-radius: 50px;
+    font-size: 19px;
+    position: absolute;
+    top: -8px;
+    left: 1px;
+    display: grid;
+    place-items: center;
+    background-color: crimson;
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 65px;
+    height: 20px;
+}
+
+.low_card {
+    width: 100%;
+}
+
+.low_card img {
+    margin: 7px 0 5px 0;
+}
+
+.low_card p {
+    color: #373F41;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.low_card h3 {
+    background-color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    background: #F4F4F4;
+    padding: 5px;
+    max-width: 170px;
+    border-radius: 20px;
+    margin: 5px 0 5px 0;
+}
+
+.low_card h4 {
+    margin: 5px 0;
+    font-size: 14px;
+    background: #FFF3CF;
+    max-width: 130px;
+    border-radius: 20px;
+    padding: 5px;
+    color: #333;
+    font-weight: 420;
+}
+
+.low_card div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.low_card div h2 {
+    color: #333;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.low_card div button {
+    width: 50px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border: 2px solid gold;
+    font-size: 22px;
+    background-color: transparent;
+    outline: none;
+    border-radius: 10px;
+}

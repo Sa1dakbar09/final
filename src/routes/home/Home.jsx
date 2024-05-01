@@ -12,6 +12,36 @@ import swp3 from "../../assests/images/swiper/swp3.webp";
 import swp4 from "../../assests/images/swiper/swp4.webp";
 import swp5 from "../../assests/images/swiper/swp5.webp";
 import swp6 from "../../assests/images/swiper/swp6.webp";
+////////////////////////////////////////////////////////////////////
+import brend_img_1 from "../../assests/images/brend/brend1.webp";
+import brend_img_2 from "../../assests/images/brend/brend2.webp";
+import brend_img_3 from "../../assests/images/brend/brend3.webp";
+import brend_img_4 from "../../assests/images/brend/brend4.webp";
+import brend_img_5 from "../../assests/images/brend/brend5.png";
+import brend_img_6 from "../../assests/images/brend/brend6.webp";
+import brend_img_7 from "../../assests/images/brend/brend7.svg";
+import brend_img_8 from "../../assests/images/brend/brend8.webp";
+import brend_img_9 from "../../assests/images/brend/brend9.webp";
+import brend_img_10 from "../../assests/images/brend/brend10.webp";
+import brend_img_11 from "../../assests/images/brend/brend11.webp";
+import brend_img_12 from "../../assests/images/brend/brend12.png";
+import brend_img_13 from "../../assests/images/brend/brend13.svg";
+import brend_img_14 from "../../assests/images/brend/brend14.png";
+import brend_img_15 from "../../assests/images/brend/brend15.png";
+import brend_img_16 from "../../assests/images/brend/brend16.webp";
+import brend_img_17 from "../../assests/images/brend/brend17.webp";
+import brend_img_18 from "../../assests/images/brend/brend18.webp";
+import brend_img_19 from "../../assests/images/brend/brend19.webp";
+///////////////////////////////////////////////////////////////////////////
+import { FaRegHeart, FaScaleUnbalancedFlip } from "react-icons/fa6";
+import { LuShoppingCart } from "react-icons/lu";
+///////////////////////////////////////////////////////////////////////////
+import cartLine1Img1 from "../../assests/images/mahsulotlar/cart.webp";
+import cartLine1Img2 from "../../assests/images/mahsulotlar/pech.webp";
+import cartLine1Img3 from "../../assests/images/mahsulotlar/smartfon.webp";
+import starImg from "../../assests/images/mahsulotlar/star.png";
+///////////////////////////////////////////////////////////////////////////
+
 
 const Home = () => {
 
@@ -62,68 +92,165 @@ const Home = () => {
                         {/* ////////////////////////////////////////////////////////////// */}
                     </div>
                 </main>
-
                 <section className='carucel_1'>
                     <Swiper
-                        slidesPerView={8}
-                        spaceBetween={20}
+                        slidesPerView={7}
+                        spaceBetween={30}
                         pagination={{
-                            clickable: true
-                        }}
-                        breakpoints={{
-                            200: {
-                                slidesPerView: 1
-                            },
-                            280: {
-                                slidesPerView: 2
-                            },
-                            400: {
-                                slidesPerView: 3
-                            },
-                            520: {
-                                slidesPerView: 4
-                            },
-                            550: {
-                                slidesPerView: 3
-                            },
-                            700: {
-                                slidesPerView: 4
-                            },
-                            900: {
-                                slidesPerView: 5
-                            },
-                            1100: {
-                                slidesPerView: 6
-                            },
-                            1350: {
-                                slidesPerView: 8
-                            }
+                            clickable: true,
                         }}
                         navigation={true}
-                        modules={[Navigation]}
                         className="mySwiper"
+                        modules={[Navigation]}
                     >
-                        <SwiperSlide> 1 salom </SwiperSlide>
-                        <SwiperSlide> 2 salom </SwiperSlide>
-                        <SwiperSlide> 3 salom </SwiperSlide>
-                        <SwiperSlide> 4 salom </SwiperSlide>
-                        <SwiperSlide> 5 salom </SwiperSlide>
-                        <SwiperSlide> 6 salom </SwiperSlide>
-                        <SwiperSlide> 7 salom </SwiperSlide>
-                        <SwiperSlide> 8 salom </SwiperSlide>
-                        <SwiperSlide> 9 salom </SwiperSlide>
-                        <SwiperSlide> 10 salom </SwiperSlide>
-                        <SwiperSlide> 11 salom </SwiperSlide>
-                        <SwiperSlide> 12 salom </SwiperSlide>
-                        <SwiperSlide> 13 salom </SwiperSlide>
-                        <SwiperSlide> 14 salom </SwiperSlide>
-                        <SwiperSlide> 15 salom </SwiperSlide>
-                        <SwiperSlide> 16 salom </SwiperSlide>
-                        <SwiperSlide> 17 salom </SwiperSlide>
-                        <SwiperSlide> 18 salom </SwiperSlide>
-                        <SwiperSlide> 19 salom </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car'> <img src={brend_img_1} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car'> <img src={brend_img_2} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car'> <img src={brend_img_3} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car'> <img src={brend_img_4} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car'> <img src={brend_img_5} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car'> <img src={brend_img_6} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car'> <img src={brend_img_7} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car'> <img src={brend_img_8} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car'> <img src={brend_img_9} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car'> <img src={brend_img_10} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car'> <img src={brend_img_11} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car'> <img src={brend_img_12} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car'> <img src={brend_img_13} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car'> <img src={brend_img_14} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car'> <img src={brend_img_15} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car'> <img src={brend_img_16} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car'> <img src={brend_img_17} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car'> <img src={brend_img_18} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car'> <img src={brend_img_19} id='brimgs' /> </div> </SwiperSlide>
                     </Swiper>
                 </section>
+
+                <section className='carucel_2'>
+                    <h1>Ommabop kategoriyalar</h1>
+                    <Swiper
+                        slidesPerView={7}
+                        spaceBetween={30}
+                        pagination={{
+                            clickable: true,
+                        }}
+                        navigation={true}
+                        className="mySwiper"
+                        modules={[Navigation]}
+                    >
+                        <SwiperSlide> <div className='brend_car2'> <img src={brend_img_1} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car2'> <img src={brend_img_2} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car2'> <img src={brend_img_3} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car2'> <img src={brend_img_4} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car2'> <img src={brend_img_5} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car2'> <img src={brend_img_6} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car2'> <img src={brend_img_7} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car2'> <img src={brend_img_8} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car2'> <img src={brend_img_9} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car2'> <img src={brend_img_10} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car2'> <img src={brend_img_11} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car2'> <img src={brend_img_12} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car2'> <img src={brend_img_13} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car2'> <img src={brend_img_14} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car2'> <img src={brend_img_15} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car2'> <img src={brend_img_16} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car2'> <img src={brend_img_17} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car2'> <img src={brend_img_18} id='brimgs' /> </div> </SwiperSlide>
+                        <SwiperSlide> <div className='brend_car2'> <img src={brend_img_19} id='brimgs' /> </div> </SwiperSlide>
+                    </Swiper>
+                </section>
+
+                {/* /////////////////////////////////////////////// */}
+
+                <div className="mahsulotlar">
+                    <div className="yangilar">
+                        <h1>Yangi mahsulotlar</h1>
+
+                        {/* ///////////////////// */}
+                        <div className="cards_line">
+                            <div className="cards">
+                                <div className="top_card">
+                                    <img src={cartLine1Img1} />
+                                    <button className='heart_card'>
+                                        <FaRegHeart />
+                                    </button>
+                                    <button className='scale_card'>
+                                        < FaScaleUnbalancedFlip />
+                                    </button>
+                                </div>
+                                <div className="low_card">
+                                    <p>Radar Neoline X COP 7700s Pro Black</p>
+                                    <img src={starImg} />
+                                    <h3>142 018 so'mdan / 24 oy</h3>
+                                    <h4>-10% to'liq to'lovda</h4>
+                                    <div>
+                                        <h2>2 199 000 so'm</h2>
+                                        <button>
+                                            <LuShoppingCart />
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* // */}
+                            <div className="cards">
+                                <div className="top_card">
+                                    <img src={cartLine1Img2} />
+                                    <button className='heart_card'>
+                                        <FaRegHeart />
+                                    </button>
+                                    <button className='scale_card'>
+                                        < FaScaleUnbalancedFlip />
+                                    </button>
+                                    <button className='baby06'>
+                                        0|0|6
+                                    </button>
+                                </div>
+                                <div className="low_card">
+                                    <p>
+                                        Pishirish paneli HANSA BHMI621302
+                                    </p>
+                                    <img src={starImg} />
+                                    <h3>
+                                        245 416 so'mdan / 24 oy
+                                    </h3>
+                                    <h4>-10% to'liq to'lovda</h4>
+                                    <div>
+                                        <h2>2 199 000 so'm</h2>
+                                        <button>
+                                            <LuShoppingCart />
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* // */}
+                            <div className="cards">
+                                <div className="top_card">
+                                    <img src={cartLine1Img3} />
+                                    <button className='heart_card'>
+                                        <FaRegHeart />
+                                    </button>
+                                    <button className='scale_card'>
+                                        < FaScaleUnbalancedFlip />
+                                    </button>
+                                </div>
+                                <div className="low_card">
+                                    <p>Radar Neoline X COP 7700s Pro Black</p>
+                                    <img src={starImg} />
+                                    <h3>142 018 so'mdan / 24 oy</h3>
+                                    <h4>-10% to'liq to'lovda</h4>
+                                    <div>
+                                        <h2>2 199 000 so'm</h2>
+                                        <button>
+                                            <LuShoppingCart />
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* ///////////////////// */}
+
+                    </div>
+                </div>
+                {/* /////////////////////////////////////////////// */}
 
             </div>
         </>
