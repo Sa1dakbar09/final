@@ -6,6 +6,7 @@ import Havo from "../routes/havo_sovutgic/Havo";
 import Smart from "../routes/smartfonlar/Smart";
 import Muz from "../routes/muzlatgiclar/Muz";
 import Chang from "../routes/chanyutgiclar/Chang";
+import Sevimly from './sevimly/Sevimly';
 
 const Routes = () => {
     return (
@@ -34,6 +35,10 @@ const Routes = () => {
 
                 <Route path="/changyutgich">
                     <Chang />
+                </Route >
+
+                <Route path="/sevimly">
+                    <Sevimly />
                 </Route >
 
             </div>

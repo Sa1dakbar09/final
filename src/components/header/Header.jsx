@@ -9,10 +9,95 @@ import { CiSearch } from "react-icons/ci";
 import { FaRegUser, FaRegHeart } from "react-icons/fa6";
 import logoImg from "../../assests/images/logo.png";
 import navbar_img from "../../assests/images/not_given.png";
+////////////////////////////////////////////////////
+import savatImg from "../../assests/images/savat.svg"
+////////////////////////////////////////////////////
+// import Modal from "../Modal/Modal";
+import Savat from "../savat/Savat";
+import "../Modal/Modal.css";
+import { useState, useEffect } from 'react';
 
 const Header = () => {
+
+    ////////////////////////////////////////
+    const [modal, setmodal] = useState(false);
+    const foogleBool = () => {
+        setmodal(!modal);
+    }
+    // useEffect(() => {
+    //     if (modal === true) {
+    //         document.body.style.overflow = "hidden";
+    //     } else {
+    //         document.body.style.overflow = "auto";
+    //     }
+    // }, [modal]);
+    ////////////////////////////////////////
+    const [love, setlove] = useState(false);
+    const foogleLove = () => {
+        setlove(!love);
+    }
+    // useEffect(() => {
+    //     if (love === true) {
+    //         document.body.style.overflow = "hidden";
+    //     } else {
+    //         document.body.style.overflow = "auto";
+    //     }
+    // }, [love]);
+    ////////////////////////////////////////
+
     return (
         <>
+
+            <Savat />
+
+            {modal && (
+                <div className="Modal">
+                    <div className="overGround" onClick={foogleBool}></div>
+                    <div className="modal">
+                        <button className='close'>
+                            <p onClick={foogleBool} >x</p>
+                        </button>
+                        <h2>
+                            Kirish yoki ro'yxatdan o'tish
+                        </h2>
+
+                        <input type="number" placeholder='+998' />
+                        <br />
+                        <button className='btn'> Kodni olish </button>
+                        <p className='last_text'>
+                            <span>
+                                Login orqali kirish
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            )}
+            {/* /////////////////////////////////////////////////////// */}
+            {love && (
+                <div className="Modal">
+                    <div className="overGround" onClick={foogleLove}></div>
+                    <div className="modal" id="savat">
+                        <button className='close'>
+                            <p onClick={foogleLove} >x</p>
+                        </button>
+                        <h2>
+                            Savatcha
+                        </h2>
+
+                        <div className="main_savat">
+                            <img src={savatImg} />
+                            <h3>
+                                Savatchada xozirda
+                                hech nima yo'q
+                            </h3>
+                            <button>
+                                Xarid qilish
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            )}
 
             <header>
                 <div className="black">
@@ -65,7 +150,7 @@ const Header = () => {
                             </form>
                         </div>
                         <div className="second_middle_div">
-                            <div className="icons_1 icons_div">
+                            <div className="icons_1 icons_div" onClick={foogleBool} >
                                 <FaRegUser className="name_icons" />
                                 <p>Kirish</p>
                             </div>
@@ -73,7 +158,7 @@ const Header = () => {
                                 <FaRegHeart className="name_icons" />
                                 <p>Sevimlilar</p>
                             </div>
-                            <div className="icons_3 icons_div">
+                            <div className="icons_3 icons_div" onClick={foogleLove}>
                                 <LuShoppingCart className="name_icons" />
                                 <p>Savatcha</p>
                             </div>

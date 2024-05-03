@@ -1,0 +1,44 @@
+#savat {
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    top: 60px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#savat h2 {
+    text-align: left;
+    padding: 0 0 0 50px;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.main_savat {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    height: 350px;
+    padding: 20px 0;
+}
+
+.main_savat h3 {
+    color: #333;
+    font-size: 20px;
+    max-width: 200px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.main_savat button {
+    background-color: transparent;
+    border: 2px solid #FCB100;
+    color: #333;
+    outline: none;
+    padding: 14px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}

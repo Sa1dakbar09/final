@@ -168,6 +168,8 @@
 .yangilar h1 {
     padding: 20px 0;
     font-size: 24px;
+    color: #333;
+    font-family: var(--font);
 }
 
 .cards_line {
@@ -178,12 +180,14 @@
 }
 
 .cards {
-    width: 250px;
+    width: 240px;
     height: 450px;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     border-radius: 10px;
     overflow: hidden;
     padding: 15px;
+    margin: 5px 0;
+    cursor: pointer;
 }
 
 .top_card {
@@ -194,7 +198,8 @@
 
 .top_card img {
     position: absolute;
-    width: 95%;
+    max-width: 200px;
+    height: 210px;
     z-index: -1;
     top: 5px;
     left: 5px;
@@ -264,6 +269,7 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
+    text-align: left;
 }
 
 .low_card h3 {
@@ -311,4 +317,324 @@
     background-color: transparent;
     outline: none;
     border-radius: 10px;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+
+.xitlar {
+    width: 100%;
+    min-height: 300px;
+    margin: 50px 0;
+}
+
+.header_xit_text {
+    font-size: 24px;
+    color: #333;
+    font-family: var(--font);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0 0 0;
+}
+
+#xit_p {
+    margin-bottom: 15px;
+}
+
+#barchasini {
+    color: #336FEE;
+    font-size: 15px;
+    font-family: var(--font);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.faRight {
+    font-size: 25px;
+}
+
+/* /////////////////////////////////// */
+
+.carousel {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.box h3 {
+    text-align: center;
+}
+
+.slick-slider {
+    z-index: -1 inherit;
+    overflow: visible;
+}
+
+.slick-slide {
+    padding: 0 !important;
+    z-index: -1 !important;
+}
+
+.slick-slide div {
+    margin: 1px 10px;
+}
+
+.slick-next {
+    right: 2px;
+}
+
+.slick-current {
+    margin-left: -19px;
+}
+
+.slick-next::before,
+.slick-prev::before {
+    z-index: 100 !important;
+    z-index: 1 !important;
+    font-size: 30px;
+    background: hsla(0, 0%, 100%, .8);
+    border: 1px solid hsla(0, 0%, 93%, .5);
+    border-radius: 50px;
+    color: #999;
+}
+
+/* //////////////////////////////////////////////////////// */
+
+.tuplamlar {
+    width: 100%;
+    min-height: 300px;
+}
+
+.maza_content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 30px 0;
+}
+
+.maza_content button {
+    font-size: 16px;
+    font-family: var(--font);
+    font-weight: 400;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #999;
+    border: 1px solid #ececec;
+    border-radius: 50px;
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 16px 0 0;
+    padding: 7px 16px;
+    white-space: nowrap;
+}
+
+#btn_orange {
+    background-color: #f9bc2e;
+}
+
+/* ////////////////////////////////////////////// */
+
+.news {
+    max-width: 1440px;
+    min-height: 100px;
+    margin: 40px 0;
+}
+
+.news .news_p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.slider_div {
+    max-width: 1440px;
+    min-height: 300px;
+    padding: 20px 0;
+}
+
+.box {
+    border-radius: 20px;
+    min-height: 100px;
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.box img {
+    border-radius: 20px;
+    width: 100%;
+    height: 180px;
+}
+
+.box h3 {
+    color: #373F41;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    padding: 15px 2px 5px 2px;
+}
+
+.box h2 {
+    font-size: 18px;
+    color: #111;
+    font-family: var(--font);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 2px;
+    line-height: 26px;
+}
+
+/* ///////////////////////////////////////////////////////// */
+
+.ilova {
+    width: 100%;
+    padding: 0 70px;
+    border-radius: 20px;
+    background-color: #F7F7F7;
+    display: flex;
+    gap: 100px;
+    margin: 5px 0 40px 0;
+}
+
+.left_ilova {
+    padding: 0 0 20px 0;
+}
+
+.right_ilova {
+    background-color: transparent;
+}
+
+.right_ilova h1 {
+    color: #000;
+    font-size: 38px;
+    font-family: var(--font);
+    margin: 60px 0 20px 0;
+}
+
+.right_ilova h2 {
+    color: #000;
+    font-size: 18px;
+    font-family: var(--font);
+    font-weight: 400;
+    max-width: 430px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.qr_div {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.qr_div p {
+    color: #000;
+    font-size: 18px;
+    font-family: var(--font);
+    font-weight: 400;
+    max-width: 200px;
+    line-height: 25px;
+}
+
+.qr_div img {
+    width: 112px;
+}
+
+.app_google {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.app_google img {
+    width: 110px;
+    margin: 20px 0 0 0;
+    cursor: pointer;
+}
+
+/* ///////////////////////////////////////////// */
+
+.maishiy {
+    margin: 20px 0;
+    width: 100%;
+    padding: 20px 20px 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #ececec;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rows {
+    align-items: center;
+    width: 230px;
+    text-align: center;
+}
+
+.rows img {
+    background-color: #F7F7F7;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px 0;
+    width: 65px;
+}
+
+.ustun {
+    height: 200px;
+    width: 1px;
+    background-color: #ececec;
+}
+
+.rows h3 {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0 7px 0;
+    font-family: var(--font);
+}
+
+.rows p {
+    margin-top: 10px;
+    color: #444;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: var(--font);
+    line-height: 18px;
+    width: 100%;
+}
+
+.max_h1 {
+    font-size: 24px;
+    line-height: 32px;
+    font-family: var(--font);
+    padding: 30px 0 5px 0;
+    text-align: center;
+}
+
+/* //////////////////////////// */
+
+.kurilgan {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.kurilgan h1 {
+    padding: 25px 0;
+    margin-top: 50px;
+    color: #333;
+    font-size: 24px;
+}
+
+#card_item {
+    width: 400px;
+    border: 0px;
+}
+
+#card_item h3 {
+    margin-top: 20px;
 }
