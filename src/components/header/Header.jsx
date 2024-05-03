@@ -155,8 +155,10 @@ const Header = () => {
                                 <p>Kirish</p>
                             </div>
                             <div className="icons_2 icons_div">
-                                <FaRegHeart className="name_icons" />
-                                <p>Sevimlilar</p>
+                                <Link className='LINK' to='/sevimly'>
+                                    <FaRegHeart className="name_icons" />
+                                    <p>Sevimlilar</p>
+                                </Link>
                             </div>
                             <div className="icons_3 icons_div" onClick={foogleLove}>
                                 <LuShoppingCart className="name_icons" />
